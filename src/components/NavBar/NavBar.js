@@ -7,6 +7,8 @@ import {
   FormControl,
 } from "react-bootstrap";
 
+import { CartWidget } from "../CartWidget/CartWidget";
+
 export function NavBar() {
   return (
     <Navbar bg="light" expand="lg">
@@ -25,6 +27,7 @@ export function NavBar() {
           <FormControl type="text" placeholder="Search" className="mr-sm-2" />
           <Button variant="outline-success">Search</Button>
         </Form>
+        <CartWidget />
       </Navbar.Collapse>
     </Navbar>
   );
