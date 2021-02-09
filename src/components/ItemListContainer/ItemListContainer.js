@@ -1,7 +1,8 @@
+import {ItemCounter} from '../ItemCounter/ItemCounter'
 export const ItemListContainer = () => {
     return(
         <>
-            <h1>Aca debería ir el carrito</h1>
+            <ItemCounter />
         </>
     )
 }

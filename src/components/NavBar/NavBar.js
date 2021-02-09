@@ -9,7 +9,7 @@ import {
 
 import { CartWidget } from "../CartWidget/CartWidget";
 
-export function NavBar() {
+export const NavBar = () => {
   return (
     <Navbar bg="light" expand="lg">
       <Navbar.Brand href="#home">E-island</Navbar.Brand>
